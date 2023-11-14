@@ -1,5 +1,5 @@
 # 中兴B860AV1.1T
-![盒子](/files/盒子.jpg)
+![盒子](./files/盒子.jpg)
 
 ## 盒子型号
 
@@ -22,7 +22,7 @@
 3. 用镊子短接c125，USB接入盒子（靠近电源的USB口）
 4. 进入盒子开启adb（默认开启，默认root）
 
-![短接点](/files/短接点.png)
+![短接点](./files/短接点.png)
 
 ### 三. 刷入Armbian
 1. 软件准备（开心电视助手、balenaEtcher、armbian系统）
