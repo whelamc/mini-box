@@ -11,13 +11,13 @@
 
 ## 刷机过程
 
-### 一. 准备
+### 一、准备
 1. USB双公头刷机线
 2. 镊子
 3. 8G以上的U盘
 4. 刷机环境（WIN11）
 
-### 二. 刷Android底包
+### 二、刷Android底包
 1. 软件准备（安卓底包、晶晨线刷工具）
 2. 打开晶晨线刷工具（晶晨USB_Burning_Tool_v2.0.5.15-build9）加载安卓底包（android_tv_mgv2000-s905l3b_and_hg680-lc-s905l3_v9），点击开始（右侧可勾选可不勾选）
 3. 用镊子短接（如图），USB接入盒子（靠近电源的USB口）
@@ -25,7 +25,7 @@
 
 ![短接点](./files/MGV2000短接点.jpg)
 
-### 三. 刷入Armbian
+### 三、刷入Armbian
 1. 软件准备（开心电视助手、balenaEtcher、armbian系统）
 2. 用balenaEtcher（balenaEtcher-Setup-1.18.11）把U盘刷入armbian（Armbian_23.11.0_amlogic_s905l3_bullseye_5.15.137_server_2023.11.01.img.gz）
 3. 修改U盘里的boot里面的
