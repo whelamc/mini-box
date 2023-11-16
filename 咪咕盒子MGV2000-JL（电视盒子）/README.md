@@ -28,7 +28,7 @@
 ### 三、刷入Armbian
 1. 软件准备（开心电视助手、balenaEtcher、armbian系统）
 2. 用balenaEtcher（balenaEtcher-Setup-1.18.11）把U盘刷入armbian（Armbian_23.11.0_amlogic_s905l3_bullseye_5.15.137_server_2023.11.01.img.gz）
-3. 修改U盘里的boot里面的
+3. 修改U盘里的boot里面的uenv.txt，并修改里面的参数为 dtb_name=/dtb/meson-gxl-s905l3b-e900v22e.dtb
 3. 有线连接，通过开心电视助手重启电视盒子的同时插入U盘，进入armbian系统（默认密码root/1234）
 4. ssh执行armbian-install写入emmc
 
